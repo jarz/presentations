@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="/dist/reset.css">
 		<link rel="stylesheet" href="/dist/reveal.css">
-		<link rel="stylesheet" href="/dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="/dist/theme/solarized.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="/plugin/highlight/monokai.css" id="highlight-theme">
@@ -18,62 +18,62 @@
 			<div class="slides">
 				<section data-markdown="intro.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API1.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API2.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API3.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API4.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API5.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API6.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API7.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API8.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API9.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="API10.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="outro.md"
          				 data-separator="^\n\n\n"
-         				 data-separator-vertical="^\n\n"
+         				 data-separator-vertical="^\n-----\n$"
          				 data-separator-notes="^Note:">
 				</section>
 			</div>
@@ -89,6 +89,9 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				navigationMode: 'linear',
+				width: 1800,
+				height: 800,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
